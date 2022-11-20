@@ -1,0 +1,211 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
+
+body{
+    background-image: url('/images/bg-image.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+
+}
+
+/* home page */
+
+#main-div {
+    background-color: #3B185F;
+    width: 90%;
+    height: 90vh;
+    opacity: 0.85;
+    color: white;
+    overflow: auto;
+}
+
+#navbar
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+    
+}
+
+#navbar ul
+{
+    list-style-type: none;
+}
+#navbar li
+{
+    display: inline;
+    padding: 60px;
+    font-size: 15px;
+}
+#navbar a
+{
+    text-decoration: none;
+    color: #FCFDF2;
+    font-family: 'Syne Mono', monospace;
+}
+#navbar a:hover
+{
+    color: #F0CAA3;
+}
+
+#main-div .landing-page{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#main-div .landing-page h1{
+    font-family: 'Syne Mono', monospace;
+    font-size: 8rem;
+    color: #F0CAA3;
+}
+
+#main-div .landing-page h4{
+    font-family: 'Syne Mono', monospace;
+    font-size: 4rem;
+    color: #F0CAA3;
+}
+
+#main-div .landing-page p{
+    padding-top: 10px;
+}
+
+#main-div .landing-page .two-div{
+    margin-top: 40px;
+}
+
+#main-div .landing-page .h4p{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+
+/* about page */
+
+#main-div-about{
+    background-color: #3B185F;
+    width: 90%;
+    height: 90vh;
+    opacity: 0.85;
+    color: white;
+    overflow: auto ;
+}
+#main-div-about #navbar
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.about{
+    text-align: center;
+
+    margin-top: 50px;
+}
+
+#main-div-about .about h2{
+    font-family: 'Syne Mono', monospace;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #F0CAA3;
+}
+
+#main-div-about .about .paul {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+}
+
+#main-div-about .about .skill-row-left{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: right;
+
+}
+
+
+
+/* profile page */
+
+
+#main-div-profile {
+    background-color: #3B185F;
+    width: 90%;
+    height: 90vh;
+    opacity: 0.85;
+    color: white;
+    overflow: auto ;
+    
+}
+#main-div-profile #navbar
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.skills{
+    text-align: center;
+    margin-top: 10px;
+}
+.skills h2{
+    font-family: 'Syne Mono', monospace;
+    color: #F0CAA3;
+    margin-top: 50px;
+}
+
+.icons{
+    text-align: left;
+    margin-left: 200px;
+    padding: 3%;
+}
+
+.icons h5{
+    margin-bottom: 20px;
+} 
+
+/* contact page */
+
+#main-div-contact {
+    background-color: #3B185F;
+    width: 90%;
+    height: 90vh;
+    opacity: 0.85;
+    color: white;
+    overflow: auto ;
+    
+}
+#main-div-conact #navbar
+{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 130px;
+}
+
+.contact h2{
+    font-family: 'Syne Mono', monospace;
+    color: #F0CAA3;
+}
+
+.contact p{
+    font-family: 'Syne Mono', monospace;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+
+.mb-4 {    
+    margin-top: 30px;
+}
