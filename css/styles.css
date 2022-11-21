@@ -27,7 +27,7 @@ body{
     align-items: baseline;
     justify-content: space-around;
     margin-top: 10px;
-    
+    overflow: hidden;    
     
 }
 
@@ -92,7 +92,7 @@ body{
     height: 90vh;
     opacity: 0.85;
     color: white;
-    overflow: auto ;
+    overflow: hidden;
 }
 #main-div-about #navbar
 {
@@ -126,6 +126,27 @@ body{
     margin: 100px auto 100px auto;
     text-align: right;
 
+}
+
+/* type="button" class="btn btn-outline-light btn-secondary btn-sm" */
+
+button{
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+    border-radius: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    opacity: 0.6;
+    
 }
 
 
@@ -208,4 +229,11 @@ body{
 
 .mb-4 {    
     margin-top: 30px;
+}
+
+@media screen and (max-width: 955px) {
+    #main-div  #navbar li {
+      float: none;
+      width: 100%;
+    }
 }
