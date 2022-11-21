@@ -230,10 +230,3 @@ button{
 .mb-4 {    
     margin-top: 30px;
 }
-
-@media screen and (max-width: 955px) {
-    #main-div  #navbar li {
-      float: none;
-      width: 100%;
-    }
-}
